@@ -13,6 +13,11 @@ import java.util.Scanner;
  * @author sivagamasrinivasan
  * 
  */
+enum Operation {
+    PLUS, MINUS, TIMES, DIVIDE
+}
+
+
 public class ArithmeticBase 
 {
  public double x,y;
